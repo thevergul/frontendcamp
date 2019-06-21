@@ -1,0 +1,30 @@
+    /*!
+ * Thevergul (yevergul@gmail.com)
+*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,900');
+
+/*Genel Ayarlar*/
+
+body {font-family: 'Raleway', sans-serif; margin:0; padding:0; color:#606060; font-weight:400; font-size:14px; }
+
+.background {width:100%; height: 100vh; margin:0; padding:0; background: url(/img/background.jpg) no-repeat center center; background-size: cover;}
+.container {width: 268px; position: absolute; top:50%; left:50%; margin-left: -114px; margin-top: -175px; height: 350px; box-shadow: 0 3px 8px 2px rgba(54, 54, 54, 0.7); -webkit-box-shadow:0 3px 8px 2px rgba(54, 54, 54, 0.7); -moz-box-shadow:0 3px 8px 2px rgba(54, 54, 54, 0.7); background-color: #ffffff; border-radius: 6px;}
+.cover {width: 100%; background: url(/img/cover.jpg) no-repeat center center; background-size: cover; min-height: 152px; margin-bottom:50px; height: auto; position: relative; border-top-left-radius: 6px; border-top-right-radius:6px;}
+.avatar {width: 70px; height: 70px; position: absolute; bottom:-35px; z-index: 1; left:50%; margin-left:-35px;}
+.avatar img {width: 70px; height: 70px;}
+.information {padding:0 10px;}
+.name {text-align: center; display: block;}
+.desc {display: block; text-align: center; margin:22px 0 ;}
+.desc a {color:lightskyblue;}
+.desc a:hover {text-decoration: underline;}
+.social {margin:15px 0; width:100%; text-align: center;}
+.social .links {width: 15px; height:15px; margin-right:15px; display: inline-block;}
+.social .dribbble {background: url(/img/dribbble.svg) no-repeat center center;}
+.social .dribbble:hover {background: url(/img/dribbble-hover.svg) no-repeat center center;}
+.social .twitter {background: url(/img/twitter.svg) no-repeat center center;}
+.social .twitter:hover {background: url(/img/twitter-hover.svg) no-repeat center center;}
+.social .instagram {background: url(/img/instagram.svg) no-repeat center center;}
+.social .instagram:hover {background: url(/img/instagram-hover.svg) no-repeat center center;}
+
